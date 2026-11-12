@@ -1,18 +1,18 @@
 public class Customer {
 
-    private String customerName;
-    private String phoneNumber;
+    private String name;
+    private String phone;
 
-    public Customer(String customerName, String phoneNumber) {
-        this.customerName = customerName;
-        this.phoneNumber = phoneNumber;
+    public Customer(String name, String phone) {
+        this.name = name;
+        this.phone = phone;
     }
 
-    public String getCustomerName() {
-        return customerName;
+    public String getName() {
+        return name;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
+    public String getPhone() {
+        return phone;
     }
 }
